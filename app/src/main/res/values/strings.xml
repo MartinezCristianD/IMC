@@ -1,13 +1,15 @@
 <resources>
     <string name="app_name">IMC</string>
     <string name="result">Resultado</string>
-    <string name="weight"> Ingrese su peso en kilos</string>
-    <string name="high"> Ingrese su altura en cm</string>
+    <string name="weight"> Peso en kilos</string>
+    <string name="high"> Altura en cm</string>
     <string name="desnutricion"> Desnutricion, su IMC es:</string>
     <string name="normal"> Normal, su IMC es:</string>
     <string name="obesidad"> Obesidad, su IMC es:</string>
     <string name="gordo"> Consulte su EPS, su IMC es:</string>
     <string name="cero">0</string>
+    <string name="restar">Borrar</string>
+    <string name="creditos"> ...Developed by Davick</string>
 
 
 </resources>
