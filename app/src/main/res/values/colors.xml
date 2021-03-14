@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="strokeColor">#E13E3E</color>
     <color name="lineColor">#FFB50211</color>
+    <color name="btncolor">#FF1E6A98</color>
+
 </resources>

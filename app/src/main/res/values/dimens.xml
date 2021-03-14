@@ -15,4 +15,9 @@
     <dimen name="resultButtonTextSize">26sp</dimen>
     <dimen name="creditosHeight">30dp</dimen>
     <dimen name="creditosWidth">250dp</dimen>
+    <dimen name="nameTextSize">18sp</dimen>
+    <dimen name="cuidateTextSize">18sp</dimen>
+    <dimen name="calcularTextSize">15sp</dimen>
+    <dimen name="strokeSize">12sp</dimen>
+
 </resources>

@@ -63,11 +63,12 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/boton"
+        android:id="@+id/btnResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="148dp"
         android:background="@drawable/rectangulo"
+        android:backgroundTint="@color/btncolor"
         android:gravity="center"
         android:text="@string/result"
         android:textSize="@dimen/resultButtonTextSize"
@@ -85,6 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/ovalo"
+        android:backgroundTint="@color/btncolor"
         android:text="@string/restar"
         android:textColor="@color/white"
         android:textSize="@dimen/ovalTextSize"

@@ -6,12 +6,12 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_main.*
-
+import kotlin.String as String
 
 class MainActivity : AppCompatActivity() {
     private var weigth: Double = 0.0
     private var high: Double = 0.0
-    private var noOp = " Error"
+    private var noOp = "invalid Input "
     private lateinit var result: Button
     private lateinit var restar: Button
     private lateinit var highView: EditText
@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         restar= findViewById(R.id.restar)
         restar.setOnClickListener { resall() }
 
-        result = findViewById(R.id.boton)
+        result = findViewById(R.id.btnResult)
         result.setOnClickListener { resultImc() }
     }
 
@@ -42,13 +42,11 @@ class MainActivity : AppCompatActivity() {
         high /= 100.0
         high *= high
 
-
-
         when (val oper = (weigth / high).toFloat()) {
-            in 0.0..18.4 -> {resultView.text = "$name Alerta!!Desnutricion su IMC es:$oper"}
-            in 18.5..24.9 -> {resultView.text = "$name Felicitaciones su IMC es:$oper "}
-            in 25.0..29.9 -> {resultView.text = "$name Alerta!! Obesidad su IMC es :$oper"}
-            in 30.0..40.0 -> {resultView.text = "$name Consulte su EPS su IMC es :$oper"}
+            in 0.0..18.4  -> {resultView.text = "$name Alerta!!Desnutricion su IMC es:$oper"}
+            in 18.5..24.9 -> {resultView.text = "$name Alerta!!Felicitaciones su IMC es:$oper"}
+            in 25.0..29.9 -> {resultView.text = "$name Alerta!!Obesidad, su IMC es:${oper}"}
+            in 30.0..40.0 -> {resultView.text = "$name Consulte su EPS, su IMC es:$oper"}
             else -> {resultView.text = noOp}
         }
     }

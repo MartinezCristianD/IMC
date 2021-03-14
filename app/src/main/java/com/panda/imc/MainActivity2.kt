@@ -15,11 +15,11 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-        name = findViewById(R.id.editTextTextPersonName)
+        name = findViewById(R.id.TextPersonName)
 
 
 
-        val activity2 = findViewById<Button>(R.id.activity2)
+        val activity2 = findViewById<Button>(R.id.btnCalcular)
         activity2.setOnClickListener{
             val intent = Intent(this,MainActivity::class.java)
             intent.putExtra("name",name.text.toString())

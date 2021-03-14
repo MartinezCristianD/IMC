@@ -6,10 +6,14 @@
     <string name="desnutricion"> Desnutricion, su IMC es:</string>
     <string name="normal"> Normal, su IMC es:</string>
     <string name="obesidad"> Obesidad, su IMC es:</string>
-    <string name="gordo"> Consulte su EPS, su IMC es:</string>
+    <string name="eps"> Consulte su EPS, su IMC es:</string>
     <string name="cero">0</string>
     <string name="restar">Borrar</string>
-    <string name="creditos"> ...Developed by Davick</string>
+    <string name="creditos"> …Developed by Davick</string>
+    <string name="nameText">  Ingrese Su Nombre </string>
+    <string name="cuidate">Take care of your health</string>
+    <string name="btnCalcular">Calcular IMC</string>
+    <string name="autofill">Usuario</string>
 
 
 </resources>

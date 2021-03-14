@@ -3,26 +3,33 @@
     <words>
       <w>alerta</w>
       <w>altura</w>
+      <w>autofill</w>
       <w>borrar</w>
       <w>boton</w>
+      <w>btncolor</w>
+      <w>calcular</w>
       <w>cero</w>
       <w>consulte</w>
       <w>creditos</w>
+      <w>cuidate</w>
       <w>davick</w>
       <w>desnutricion</w>
       <w>felicitaciones</w>
       <w>gordo</w>
       <w>imcbackground</w>
       <w>ingrese</w>
+      <w>nombre</w>
       <w>obesidad</w>
       <w>oper</w>
       <w>ovalbuttonweigth</w>
+      <w>ovalo</w>
       <w>ovaltextsize</w>
       <w>rectangulo</w>
       <w>resall</w>
       <w>restar</w>
       <w>resultado</w>
       <w>textviewtextsize</w>
+      <w>usuario</w>
       <w>weigth</w>
     </words>
   </dictionary>

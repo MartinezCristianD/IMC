@@ -8,45 +8,49 @@
     tools:context=".MainActivity2">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/TextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/strokeColor"
         android:ems="10"
         android:gravity="center"
-        android:hint="Ingrese su nombre "
+        android:hint="@string/nameText"
         android:inputType="textPersonName"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
+        android:textSize="@dimen/nameTextSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.319" />
+        app:layout_constraintVertical_bias="0.319"
+        android:autofillHints="@string/autofill" />
 
     <Button
-        android:id="@+id/activity2"
+        android:id="@+id/btnCalcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calcular IMC"
+        android:text="@string/btnCalcular"
+        android:textSize="@dimen/calcularTextSize"
+        android:backgroundTint="@color/btncolor"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/TextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/TextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/TextPersonName"
         app:layout_constraintVertical_bias="0.18" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/cuidateText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
-        android:text="@string/creditos"
+        android:text="@string/cuidate"
         android:textColor="@color/black"
-        android:textSize="18sp"
+        android:textSize="@dimen/cuidateTextSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/activity2"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalcular"
         app:layout_constraintVertical_bias="0.881" />
 </androidx.constraintlayout.widget.ConstraintLayout>
