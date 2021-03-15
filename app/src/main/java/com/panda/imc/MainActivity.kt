@@ -11,7 +11,7 @@ import kotlin.String as String
 class MainActivity : AppCompatActivity() {
     private var weigth: Double = 0.0
     private var high: Double = 0.0
-    private var noOp = "invalid Input "
+    private var noOp = " Error "
     private lateinit var result: Button
     private lateinit var restar: Button
     private lateinit var highView: EditText
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         restar.setOnClickListener { resall() }
 
         result = findViewById(R.id.btnResult)
-        result.setOnClickListener { resultImc() }
+        result.setOnClickListener {resultImc()}
     }
 
     private fun resultImc() {
@@ -41,12 +41,17 @@ class MainActivity : AppCompatActivity() {
         high = highView.text.toString().toDouble()
         high /= 100.0
         high *= high
+        val oper = (weigth / high).toFloat()
+        val desnutricion = name + getString(R.string.desnutricion) + oper
+        val normal = name + getString(R.string.normal) + oper
+        val obesidad = name + getString(R.string.obesidad) + oper
+        val eps = name +getString(R.string.eps) + oper
 
-        when (val oper = (weigth / high).toFloat()) {
-            in 0.0..18.4  -> {resultView.text = "$name Alerta!!Desnutricion su IMC es:$oper"}
-            in 18.5..24.9 -> {resultView.text = "$name Alerta!!Felicitaciones su IMC es:$oper"}
-            in 25.0..29.9 -> {resultView.text = "$name Alerta!!Obesidad, su IMC es:${oper}"}
-            in 30.0..40.0 -> {resultView.text = "$name Consulte su EPS, su IMC es:$oper"}
+        when (oper) {
+            in 0.0..18.4  -> {resultView.text  = desnutricion}
+            in 18.5..24.9 -> {resultView.text = normal}
+            in 25.0..29.9 -> {resultView.text = obesidad}
+            in 30.0..40.0 -> {resultView.text = eps}
             else -> {resultView.text = noOp}
         }
     }
