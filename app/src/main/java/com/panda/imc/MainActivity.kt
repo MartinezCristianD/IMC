@@ -11,7 +11,7 @@ import kotlin.String as String
 class MainActivity : AppCompatActivity() {
     private var weigth: Double = 0.0
     private var high: Double = 0.0
-    private var noOp = " Error "
+    private var noOp:String = ""
     private lateinit var result: Button
     private lateinit var restar: Button
     private lateinit var highView: EditText
@@ -37,10 +37,15 @@ class MainActivity : AppCompatActivity() {
     private fun resultImc() {
 
         val resultView = findViewById<TextView>(R.id.resultView)
-        weigth = weigthView.text.toString().toDouble()
-        high = highView.text.toString().toDouble()
+        if (!weigthView.text.isNullOrEmpty()) {
+           weigth = weigthView.text.toString().toDouble()
+        }
+        if (!highView.text.isNullOrEmpty()) {
+            high = highView.text.toString().toDouble()
+        }
         high /= 100.0
         high *= high
+        noOp= getString(R.string.noOp)
         val oper = (weigth / high).toFloat()
         val malnutrition = name + getString(R.string.malnutrition) + oper
         val normal = name + getString(R.string.normal) + oper

@@ -1,17 +1,19 @@
 <resources>
-    <string name="app_name">IMC</string>
-    <string name="weight"> Peso en kilos</string>
-    <string name="high"> Altura en cm</string>
-    <string name="malnutrition"> Alerta! Desnutricion, su IMC es:</string>
-    <string name="normal"> Felicitaciones! su IMC es:</string>
-    <string name="obesity"> Alerta! Obesidad, su IMC es:</string>
-    <string name="eps"> Consulte su EPS, su IMC es:</string>
+    <string name="weight">Weight in Kg</string>
+    <string name="high">Height in Cm</string>
+    <string name="malnutrition">" Alert! malnutrition, your bmi is:"</string>
+    <string name="normal">" Congratulations!! your bmi is:"</string>
+    <string name="obesity">" Alert! obesity, your bmi is:"</string>
+    <string name="eps">Check your social security, your bmi es:</string>
     <string name="cero">0</string>
-    <string name="restar">Borrar</string>
-    <string name="credit"> …Creado por Davick</string>
-    <string name="nameText">  Ingrese Su Nombre </string>
-    <string name="takeCare"> Cuida de tu salud </string>
-    <string name="autofill">Usuario</string>
-    <string name="btnImc">Calcular IMC</string>
-    <string name="result">Resultado</string>
+    <string name="restar">Delete</string>
+    <string name="credit">" …Developed by Davick"</string>
+    <string name="nameText">Enter Your Name</string>
+    <string name="takeCare">"  Take Care of Yourself"</string>
+    <string name="autofill">Username</string>
+    <string name="btnImc">"Calculate "</string>
+    <string name="result">Result</string>
+    <string name="noOp">Not Valid</string>
+    <string name="app_name">BIM</string>
+
 </resources>
