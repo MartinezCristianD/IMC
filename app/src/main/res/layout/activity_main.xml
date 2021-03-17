@@ -41,15 +41,15 @@
         android:textColorHint="@color/black"
         android:textSize="@dimen/inputTextSize"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/weigth"
+        app:layout_constraintEnd_toEndOf="@id/weigth"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/weigth"
-        app:layout_constraintTop_toBottomOf="@+id/weigth" />
+        app:layout_constraintStart_toStartOf="@id/weigth"
+        app:layout_constraintTop_toBottomOf="@id/weigth" />
 
     <TextView
         android:id="@+id/resultView"
-        android:layout_width="408dp"
-        android:layout_height="177dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textViewHeight"
         android:layout_marginBottom="@dimen/infMargeTextView"
         android:gravity="center"
         android:text="@string/app_name"
@@ -91,16 +91,16 @@
         android:textColor="@color/white"
         android:textSize="@dimen/ovalTextSize"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/weigth"
+        app:layout_constraintBottom_toTopOf="@id/weigth"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.378" />
 
     <TextView
         android:id="@+id/creditosView"
-        android:layout_width="@dimen/creditosWidth"
-        android:layout_height="@dimen/creditosHeight"
-        android:text="@string/creditos"
+        android:layout_width="@dimen/creditWidth"
+        android:layout_height="@dimen/creditHeight"
+        android:text="@string/credit"
         android:textColor="@color/white"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weight">Weight in Kilograms</string>
+    <string name="high">" Height in Centimeters"</string>
+    <string name="autofill">Username</string>
+    <string name="btnImc">"Calculate "</string>
+    <string name="takeCare">" Take Care of Yourself"</string>
+    <string name="nameText">"Enter Your Name "</string>
+    <string name="credit">" …Developed by Davick"</string>
+    <string name="restar">Delete</string>
+    <string name="cero">0</string>
+    <string name="app_name">BMI</string>
+    <string name="eps">check your social security, your bmi es:</string>
+    <string name="obesity">" Alert! obesity, your bmi is:"</string>
+    <string name="normal">Congratulations!! your bmi is</string>
+    <string name="malnutrition">" Alert! malnutrition, your bmi is:"</string>
+    <string name="result">Result</string>
+</resources>

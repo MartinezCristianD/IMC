@@ -42,15 +42,15 @@ class MainActivity : AppCompatActivity() {
         high /= 100.0
         high *= high
         val oper = (weigth / high).toFloat()
-        val desnutricion = name + getString(R.string.desnutricion) + oper
+        val malnutrition = name + getString(R.string.malnutrition) + oper
         val normal = name + getString(R.string.normal) + oper
-        val obesidad = name + getString(R.string.obesidad) + oper
+        val obesity = name + getString(R.string.obesity) + oper
         val eps = name +getString(R.string.eps) + oper
 
         when (oper) {
-            in 0.0..18.4  -> {resultView.text  = desnutricion}
+            in 0.0..18.4  -> {resultView.text  = malnutrition}
             in 18.5..24.9 -> {resultView.text = normal}
-            in 25.0..29.9 -> {resultView.text = obesidad}
+            in 25.0..29.9 -> {resultView.text = obesity}
             in 30.0..40.0 -> {resultView.text = eps}
             else -> {resultView.text = noOp}
         }

@@ -13,11 +13,11 @@
     <dimen name="rectangularWidth">150dp</dimen>
     <dimen name="radioButton">20dp</dimen>
     <dimen name="resultButtonTextSize">26sp</dimen>
-    <dimen name="creditosHeight">30dp</dimen>
-    <dimen name="creditosWidth">250dp</dimen>
+    <dimen name="creditHeight">30dp</dimen>
+    <dimen name="creditWidth">250dp</dimen>
     <dimen name="nameTextSize">18sp</dimen>
-    <dimen name="cuidateTextSize">18sp</dimen>
-    <dimen name="calcularTextSize">15sp</dimen>
+    <dimen name="takeCareTextSize">18sp</dimen>
+    <dimen name="btnImcTextSize">15sp</dimen>
     <dimen name="strokeSize">12sp</dimen>
 
 </resources>

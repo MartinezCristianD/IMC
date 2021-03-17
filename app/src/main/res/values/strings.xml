@@ -1,19 +1,17 @@
 <resources>
     <string name="app_name">IMC</string>
-    <string name="result">Resultado</string>
     <string name="weight"> Peso en kilos</string>
     <string name="high"> Altura en cm</string>
-    <string name="desnutricion"> Alerta! Desnutricion, su IMC es:</string>
-    <string name="normal"> Felicitaciones! Normal, su IMC es:</string>
-    <string name="obesidad"> Alerta! Obesidad, su IMC es:</string>
+    <string name="malnutrition"> Alerta! Desnutricion, su IMC es:</string>
+    <string name="normal"> Felicitaciones! su IMC es:</string>
+    <string name="obesity"> Alerta! Obesidad, su IMC es:</string>
     <string name="eps"> Consulte su EPS, su IMC es:</string>
     <string name="cero">0</string>
     <string name="restar">Borrar</string>
-    <string name="creditos"> …Developed by Davick</string>
+    <string name="credit"> …Creado por Davick</string>
     <string name="nameText">  Ingrese Su Nombre </string>
-    <string name="cuidate">Take care of your health</string>
-    <string name="btnCalcular">Calcular IMC</string>
+    <string name="takeCare"> Cuida de tu salud </string>
     <string name="autofill">Usuario</string>
-
-
+    <string name="btnImc">Calcular IMC</string>
+    <string name="result">Resultado</string>
 </resources>
