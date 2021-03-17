@@ -11,7 +11,7 @@
         android:theme="@style/Theme.IMC"
         android:fullBackupContent="@xml/backup_descriptor">
         <activity android:name=".MainActivity" />
-        <activity android:name=".begining">
+        <activity android:name=".Begining">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

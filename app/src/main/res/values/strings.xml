@@ -9,11 +9,11 @@
     <string name="restar">Delete</string>
     <string name="credit">" …Developed by Davick"</string>
     <string name="nameText">Enter Your Name</string>
-    <string name="takeCare">"  Take Care of Yourself"</string>
+    <string name="takeCare">"Take Care of Yourself"</string>
     <string name="autofill">Username</string>
     <string name="btnImc">"Calculate "</string>
     <string name="result">Result</string>
-    <string name="noOp">Not Valid</string>
+    <string name="noOperation">Not Valid</string>
     <string name="app_name">BIM</string>
 
 </resources>

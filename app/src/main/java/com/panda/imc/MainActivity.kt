@@ -11,7 +11,6 @@ import kotlin.String as String
 class MainActivity : AppCompatActivity() {
     private var weigth: Double = 0.0
     private var high: Double = 0.0
-    private var noOp:String = ""
     private lateinit var result: Button
     private lateinit var restar: Button
     private lateinit var highView: EditText
@@ -45,7 +44,6 @@ class MainActivity : AppCompatActivity() {
         }
         high /= 100.0
         high *= high
-        noOp= getString(R.string.noOp)
         val oper = (weigth / high).toFloat()
         val malnutrition = name + getString(R.string.malnutrition) + oper
         val normal = name + getString(R.string.normal) + oper
@@ -57,7 +55,7 @@ class MainActivity : AppCompatActivity() {
             in 18.5..24.9 -> {resultView.text = normal}
             in 25.0..29.9 -> {resultView.text = obesity}
             in 30.0..40.0 -> {resultView.text = eps}
-            else -> {resultView.text = noOp}
+            else -> {resultView.text = getString(R.string.noOperation)}
         }
     }
 

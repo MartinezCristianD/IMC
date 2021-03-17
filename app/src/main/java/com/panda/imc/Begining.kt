@@ -7,7 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 
 
-class begining : AppCompatActivity() {
+class Begining : AppCompatActivity() {
     lateinit var name:EditText
 
 

@@ -2,7 +2,7 @@
 <resources>
     <string name="btnImc">"Calcular IMC "</string>
     <string name="result">Resultado</string>
-    <string name="noOp">Operación no Valida</string>
+    <string name="noOperation">Operación no Valida</string>
     <string name="autofill">Usuario</string>
     <string name="takeCare">"Cuida de tu salud "</string>
     <string name="nameText">Ingrese Su Nombre</string>
@@ -16,4 +16,5 @@
     <string name="high">" Altura en cm "</string>
     <string name="weight">" Peso en kilos"</string>
     <string name="app_name">IMC</string>
+
 </resources>
