@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="ovalButtonHeight">20dp</dimen>
+    <dimen name="ovalButtonHeightBp">20dp</dimen>
     <dimen name="ovalButtonWidth">90dp</dimen>
+    <dimen name="ovalButtonWidthBp">90dp</dimen>
     <dimen name="ovalTextSize">14sp</dimen>
+    <dimen name="ovalTextSizeBp">14sp</dimen>
     <dimen name="textViewTextSize">34sp</dimen>
+    <dimen name="textViewTextSizeBp">34sp</dimen>
     <dimen name="infMargeTextView">40dp</dimen>
+    <dimen name="infMargeTextViewBp">40dp</dimen>
     <dimen name="textViewHeight">122dp</dimen>
+    <dimen name="textViewHeightBp">122dp</dimen>
     <dimen name="inputHeight">60dp</dimen>
     <dimen name="inputWidth">130dp</dimen>
     <dimen name="inputTextSize">20sp</dimen>
@@ -13,11 +19,13 @@
     <dimen name="rectangularWidth">150dp</dimen>
     <dimen name="radioButton">20dp</dimen>
     <dimen name="resultButtonTextSize">26sp</dimen>
+    <dimen name="resultButtonTextSizeBp">26sp</dimen>
     <dimen name="creditHeight">30dp</dimen>
     <dimen name="creditWidth">250dp</dimen>
     <dimen name="nameTextSize">18sp</dimen>
     <dimen name="takeCareTextSize">18sp</dimen>
     <dimen name="btnImcTextSize">15sp</dimen>
+    <dimen name="btnTextSizeBp">20sp</dimen>
     <dimen name="strokeSize">12sp</dimen>
 
 </resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundpressure"
+    tools:context=".BloodPressure">
+
+    <TextView
+        android:id="@+id/creditosViewBp"
+        android:layout_width="@dimen/creditWidth"
+        android:layout_height="@dimen/creditHeight"
+        android:text="@string/credit"
+        android:textColor="@color/black"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/restarBp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/ovalo"
+        android:backgroundTint="@color/btncolor"
+        android:text="@string/restar"
+        android:textColor="@color/white"
+        android:textSize="@dimen/ovalTextSize"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/systole"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/inputHeight"
+        android:autofillHints="@string/weight"
+        android:backgroundTint="@color/lineColor"
+        android:hint="@string/systole"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="@dimen/btnTextSizeBp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/resultViewBp"
+        app:layout_constraintEnd_toEndOf="@id/restarBp"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toEndOf="@id/creditosViewBp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <EditText
+        android:id="@+id/diastole"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/inputHeight"
+        android:autofillHints="@string/high"
+        android:backgroundTint="@color/lineColor"
+        android:hint="@string/diastole"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="@dimen/inputTextSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/systole"
+        app:layout_constraintStart_toStartOf="@id/systole"
+        app:layout_constraintTop_toBottomOf="@id/systole" />
+
+    <Button
+        android:id="@+id/resultBp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btncolor"
+        android:gravity="center"
+        android:text="@string/result"
+        android:textColor="@color/white"
+        android:textSize="@dimen/resultButtonTextSize"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/diastole"
+        app:strokeColor="@color/black" />
+
+    <TextView
+        android:id="@+id/resultViewBp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textViewHeight"
+        android:gravity="center"
+        android:text="@string/btnBp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="@dimen/textViewTextSize"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,5 +16,8 @@
     <string name="high">" Altura en cm "</string>
     <string name="weight">" Peso en kilos"</string>
     <string name="app_name">IMC</string>
+    <string name="btnBp">Presion Arterial</string>
+    <string name="systole">"Valor de Sistole "</string>
+    <string name="diastole">Valor de Diastole</string>
 
 </resources>
