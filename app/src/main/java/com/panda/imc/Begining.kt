@@ -8,7 +8,7 @@ import android.widget.EditText
 
 
 class Begining : AppCompatActivity() {
-    lateinit var name:EditText
+    lateinit var name: EditText
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,14 +18,19 @@ class Begining : AppCompatActivity() {
         name = findViewById(R.id.TextPersonName)
 
 
-
         val activity2 = findViewById<Button>(R.id.btnCalcular)
-        activity2.setOnClickListener{
-            val intent = Intent(this,MainActivity::class.java)
-            intent.putExtra("name",name.text.toString())
+        activity2.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            intent.putExtra("name", name.text.toString())
             startActivity(intent)
         }
 
+        val bloodPressure = findViewById<Button>(R.id.btnCalcularBp)
+        bloodPressure.setOnClickListener {
+            val intent2 = Intent(this, BloodPressure::class.java)
+            intent2.putExtra("name", name.text.toString())
+            startActivity(intent2)
+        }
 
     }
 }

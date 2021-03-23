@@ -11,6 +11,7 @@
         android:id="@+id/TextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints="@string/autofill"
         android:backgroundTint="@color/strokeColor"
         android:gravity="center"
         android:hint="@string/nameText"
@@ -20,11 +21,9 @@
         android:textSize="@dimen/nameTextSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.319"
-        android:autofillHints="@string/autofill" />
+        app:layout_constraintVertical_bias="0.281" />
 
     <Button
         android:id="@+id/btnCalcular"
@@ -36,9 +35,24 @@
         android:textSize="@dimen/btnImcTextSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/TextPersonName"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="@id/TextPersonName"
         app:layout_constraintTop_toBottomOf="@id/TextPersonName"
-        app:layout_constraintVertical_bias="0.18" />
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/btnCalcularBp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="@string/btnBp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/btnImcTextSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnCalcular"
+        app:layout_constraintStart_toStartOf="@+id/btnCalcular"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalcular"
+        app:layout_constraintVertical_bias="0.081" />
 
     <TextView
         android:id="@+id/cuidateText"
