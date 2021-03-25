@@ -19,5 +19,10 @@
     <string name="btnBp">Presion Arterial</string>
     <string name="systole">"Valor de Sistole "</string>
     <string name="diastole">Valor de Diastole</string>
+    <string name="normalBp">Su Presion Arterial es Normal</string>
+    <string name="hypertension">Alerta!  Hipertension</string>
+    <string name="elevated">Alerta!, Elevada, su Presion Arterial es Elevada</string>
+    <string name="hypotension">Alerta!  Hipotension</string>
+    <string name="hypertension2">Consulte  su  EPS.</string>
 
 </resources>

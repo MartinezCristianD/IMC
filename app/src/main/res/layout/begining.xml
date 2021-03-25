@@ -49,9 +49,9 @@
         android:textColor="@color/white"
         android:textSize="@dimen/btnImcTextSize"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/btnCalcular"
-        app:layout_constraintStart_toStartOf="@+id/btnCalcular"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalcular"
+        app:layout_constraintEnd_toEndOf="@id/btnCalcular"
+        app:layout_constraintStart_toStartOf="@id/btnCalcular"
+        app:layout_constraintTop_toBottomOf="@id/btnCalcular"
         app:layout_constraintVertical_bias="0.081" />
 
     <TextView

@@ -4,20 +4,25 @@
     <string name="malnutrition">" Alert! malnutrition, your bmi is:"</string>
     <string name="normal">" Congratulations!! your bmi is:"</string>
     <string name="obesity">" Alert! obesity, your bmi is:"</string>
-    <string name="eps">Check your social security, your bmi es:</string>
+    <string name="eps">Check your social security, your bmi is:</string>
     <string name="cero">0</string>
     <string name="restar">Delete</string>
     <string name="credit">" …Developed by Davick"</string>
     <string name="nameText">Enter Your Name</string>
     <string name="takeCare">"Take Care of Yourself"</string>
     <string name="autofill">Username</string>
-    <string name="btnImc">"Calculate IMC "</string>
+    <string name="btnImc">"Calculate BMI "</string>
     <string name="btnBp">"Blood Pressure "</string>
     <string name="result">Result</string>
     <string name="noOperation">Not Valid</string>
-    <string name="app_name">BIM</string>
+    <string name="app_name">BMI</string>
     <string name="systole">Systole Value</string>
     <string name="diastole">Diastole Value</string>
+    <string name="hypertension">" Alert!  Hypertension"</string>
+    <string name="normalBp">" your Blood Pressure is Normal"</string>
+    <string name="elevated">" Alert!, your Blood Pressure is Elevated"</string>
+    <string name="hypotension"> Alert!  Hypotension</string>
+    <string name="hypertension2"> Check your social security.</string>
 
 
 
