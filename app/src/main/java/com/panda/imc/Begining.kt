@@ -15,11 +15,12 @@ class Begining : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.begining)
 
+
         name = findViewById(R.id.TextPersonName)
 
 
-        val activity2 = findViewById<Button>(R.id.btnCalcular)
-        activity2.setOnClickListener {
+        val btnCalcular = findViewById<Button>(R.id.btnCalcular)
+        btnCalcular.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             intent.putExtra("name", name.text.toString())
             startActivity(intent)

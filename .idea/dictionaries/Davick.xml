@@ -5,7 +5,9 @@
       <w>altura</w>
       <w>autofill</w>
       <w>backgroundpresion</w>
+      <w>backgroundpressure</w>
       <w>begining</w>
+      <w>bloodpressure</w>
       <w>borrar</w>
       <w>boton</w>
       <w>btncolor</w>
@@ -20,6 +22,7 @@
       <w>desnutricion</w>
       <w>felicitaciones</w>
       <w>gordo</w>
+      <w>hypotension</w>
       <w>imcbackground</w>
       <w>ingrese</w>
       <w>nombre</w>
